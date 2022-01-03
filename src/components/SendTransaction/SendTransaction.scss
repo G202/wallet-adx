@@ -13,7 +13,8 @@ $titleBar-height: 90px;
     flex-direction: column;
     align-items: center;
     overflow-y: auto;
-    background-color: #282b33;
+    /*background-color: #282b33;*/
+    background: radial-gradient( circle, #25213c 0%, #0c0b13 93%);
     /*
     background-color: rgba(40, 43, 51, 0.95);
     backdrop-filter: blur(8px);
@@ -30,7 +31,6 @@ $titleBar-height: 90px;
         align-items: center;
         justify-content: space-between;
         padding: 0 1vw;
-        background-color: $background-color;
 
         .dismiss {
             @include flex-center-center;
